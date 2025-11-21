@@ -1,10 +1,7 @@
+# ⚠️  定时任务已被禁用以避免不必要的邮件通知
 name: Mark stale issues and pull requests
 
-on:
-  schedule:
-  - cron: "0 0 * * *"
-
-jobs:
+on:jobs:
   stale:
 
     runs-on: ubuntu-latest
